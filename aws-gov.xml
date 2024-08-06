@@ -19,6 +19,7 @@
 <AttributeConsumingService index="1">
   yes
   no
+  maybe
 <ServiceName xml:lang="en">AWS Management Console Single Sign-On</ServiceName>
 <RequestedAttribute isRequired="true" Name="https://aws.amazon.com/SAML/Attributes/Role" FriendlyName="RoleEntitlement"/>
 <RequestedAttribute isRequired="true" Name="https://aws.amazon.com/SAML/Attributes/RoleSessionName" FriendlyName="RoleSessionName"/>

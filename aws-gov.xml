@@ -18,6 +18,7 @@
 <AssertionConsumerService index="1" isDefault="true" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://signin.amazonaws-us-gov.com/saml"/>
 <AttributeConsumingService index="1">
   yes
+  no
 <ServiceName xml:lang="en">AWS Management Console Single Sign-On</ServiceName>
 <RequestedAttribute isRequired="true" Name="https://aws.amazon.com/SAML/Attributes/Role" FriendlyName="RoleEntitlement"/>
 <RequestedAttribute isRequired="true" Name="https://aws.amazon.com/SAML/Attributes/RoleSessionName" FriendlyName="RoleSessionName"/>
